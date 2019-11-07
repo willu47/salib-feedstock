@@ -14,14 +14,11 @@ build:
   noarch: python
   script: "python -m pip install . --no-deps -vv"
 requirements:
-  build:
-    - python >=3
-    - pyscaffold
   host:
-    - python >=3
+    - python
     - pip
   run:
-    - python >=3
+    - python
     - pandas
     - numpy
     - scipy
